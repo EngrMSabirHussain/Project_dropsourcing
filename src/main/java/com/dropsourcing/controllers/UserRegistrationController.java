@@ -21,7 +21,7 @@ public class UserRegistrationController {
 
 	@GetMapping("/test")
 	public ResponseEntity<?> test(){
-		return new ResponseEntity<>("Run Successfully", HttpStatus.OK);
+		return new ResponseEntity<>("Test API Run Successfully", HttpStatus.OK);
 	}
 	
 	@PostMapping("/")
